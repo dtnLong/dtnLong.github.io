@@ -1,0 +1,84 @@
+/*Font import*/
+@import url('https://fonts.googleapis.com/css2?family=Simonetta:ital,wght@0,400;0,900;1,400;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Set page background color (except navigation bar and footer*/
+body {
+    background: #ACEDCE;
+    font-family: 'Montserrat';
+}
+
+/* Navigation Bar */
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #AAE1C7;
+}
+
+.logo-nav {
+    width: 6vw;
+}
+
+.logo-nav img {
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 88px;
+    min-height: 88px;
+}
+
+.nav-container {
+    width: 94vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-page-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-account-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Format the Navigation buttons */
+.nav-page-item {
+    text-align: center;
+    color: #313D67;
+    border: #AAE1C7 1px solid;
+    text-decoration: none;
+    padding: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2vw;
+    font-weight: bold;
+    padding: 0rem 1rem;
+}
+
+.nav-account-item {
+    text-align: center;
+    color: white;
+    background-color: #10B69B;
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    margin: 0rem 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+a:hover{
+    color:aquamarine;
+    transition: 0.2s;
+}
